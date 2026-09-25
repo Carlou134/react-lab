@@ -3,12 +3,6 @@
 
 import type React from "react";
 
-// Contrato de props de TaskCard:
-// - title: string (obligatoria)
-// - done: boolean (opcional, default false)
-// - priority: string (opcional, default 'normal')
-// - onToggle: función que se llama al hacer click (sin argumentos)
-// - children: contenido extra opcional (una nota)
 export type TaskCardProps = {
   title: string;
   done?: boolean;
@@ -17,13 +11,19 @@ export type TaskCardProps = {
   children?: React.ReactNode;
 };
 
-// TODO: desestructurá las props (con los defaults de done y priority)
-// en lugar de recibir `_props`.
-export function TaskCard(_props: TaskCardProps) {
-  // TODO: implementar.
-  // - Mostrá el title. Si done es true, mostralo tachado o con un ✓.
-  // - Mostrá priority en algún lado (una etiqueta, por ejemplo).
-  // - Si te pasaron children, mostralos debajo del title.
-  // - Agregá un <button> con onClick={onToggle}.
-  return null;
+export function TaskCard({
+  title,
+  done = false,
+  priority = "normal",
+  onToggle,
+  children,
+}: TaskCardProps) {
+  return(
+    <>
+    { done ? <h1>{title}</h1> : <h1><s>{title}</s></h1>}
+    {children}
+    <p>Priority: {priority}</p>
+    <button onClick={onToggle}>{done ? "Undo" : "Complete"}</button>
+    </>
+  );
 }

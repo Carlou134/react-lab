@@ -1,11 +1,11 @@
 import './App.css'
-import { ExerciseComponent08 } from './exercises/08-use-reducer-context/ExerciseComponent08'
+import ExerciseComponent0 from './exercises/00-props-and-components-basics/ExerciseComponent0'
 
 function App() {
 
   return (
     <>
-      <ExerciseComponent08 />
+      <ExerciseComponent0 />
     </>
   )
 }
