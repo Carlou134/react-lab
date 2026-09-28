@@ -43,7 +43,7 @@ export default function ExerciseComponent0() {
   }
 
   return (
-    <ul>
+    <ul className="grid grid-cols-3 gap-4 place-items-center">
       {tasks.map((t) => (
         <li key={t.id}>
           <TaskCard

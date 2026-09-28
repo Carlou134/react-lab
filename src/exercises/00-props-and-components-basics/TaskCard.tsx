@@ -18,12 +18,22 @@ export function TaskCard({
   onToggle,
   children,
 }: TaskCardProps) {
-  return(
+  return (
     <>
-    { done ? <h1>{title}</h1> : <h1><s>{title}</s></h1>}
-    {children}
-    <p>Priority: {priority}</p>
-    <button onClick={onToggle}>{done ? "Undo" : "Complete"}</button>
+      {done ? (
+        <h1>{title}</h1>
+      ) : (
+        <h1>
+          <s>{title}</s>
+        </h1>
+      )}
+      {children}
+      <p>Priority: {priority}</p>
+      <div className="p-4">
+        <button onClick={onToggle} className="btn-primary hover:bg-violet-600">
+          {done ? "Undo" : "Complete"}
+        </button>
+      </div>
     </>
   );
 }
