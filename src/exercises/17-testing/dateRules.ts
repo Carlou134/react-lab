@@ -7,7 +7,8 @@
 // meses en el futuro. Devolvé algo que sea fácil de testear (un
 // booleano, o un objeto { valid: boolean, reason?: string }).
 
-export function isValidReservationDate(date: Date): boolean {
+//export function isValidReservationDate(date: Date): boolean 
+export function isValidReservationDate(): boolean {
   // TODO: implementar
   return false;
 }

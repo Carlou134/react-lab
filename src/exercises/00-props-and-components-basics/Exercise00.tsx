@@ -11,7 +11,7 @@ export type Task = {
   priority?: string;
 };
 
-export default function ExerciseComponent0() {
+export default function Exercise00() {
   const [tasks, setTasks] = useState([
     {
       id: 1,

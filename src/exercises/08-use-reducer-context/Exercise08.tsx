@@ -33,7 +33,7 @@ export const SAMPLE_ITEMS: CartItem[] = [
 // distinto del árbol, que muestre solo el total de items — ambos
 // consumiendo el mismo Context.
 
-export const ExerciseComponent08 = () => {
+export const Exercise08 = () => {
   // TODO: implementar — envolvé todo en el CartProvider.
   return null;
 };

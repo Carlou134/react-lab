@@ -30,7 +30,7 @@ export type UserContextType = {
 // TODO: componentes Layout, Sidebar y UserBadge (niveles 2, 3 y 4).
 // Solo UserBadge (y el nivel 1) deben tocar el dato del usuario.
 
-export default function ComponentExercise3() {
+export default function Exercise03() {
   // TODO: implementar — armá el árbol completo y agregá un botón que
   // cambie el nombre de usuario.
   return null;

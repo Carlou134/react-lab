@@ -1,4 +1,4 @@
-import ExerciseComponent0 from "./exercises/00-props-and-components-basics/ExerciseComponent0";
+import Exercise00 from "./exercises/00-props-and-components-basics/Exercise00";
 
 function App() {
   return (
@@ -6,7 +6,7 @@ function App() {
       <h1>Lab</h1>
       <p className="text-muted">Texto secundario</p>
       <button className="bg-cta text-cta-fg px-4 py-2">Botón</button>
-      <ExerciseComponent0 />
+      <Exercise00 />
     </>
   );
 }

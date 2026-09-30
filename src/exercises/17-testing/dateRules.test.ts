@@ -1,8 +1,7 @@
 // Ejercicio 17 — Testing con Vitest
 // Consigna completa en src/exercises/README.md
 
-import { describe, it, expect } from 'vitest';
-import { isValidReservationDate } from './dateRules';
+import { describe, it } from 'vitest';
 
 describe('isValidReservationDate', () => {
   it.todo('acepta una fecha válida dentro del rango permitido');

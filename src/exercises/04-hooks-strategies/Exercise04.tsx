@@ -6,7 +6,7 @@
 // TODO: combiná ambos hooks en este componente — un switch de modo
 // oscuro que recuerde la preferencia entre recargas (al recargar, el
 // valor persistido en localStorage debe mantenerse).
-export const ComponentExercise4 = () => {
+export const Exercise04 = () => {
   // TODO: implementar
   return null;
 };

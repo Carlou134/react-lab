@@ -20,7 +20,7 @@ export type ThemeContextType = {
 // recibirlo como prop manual. Uno de ellos debe tener un botón para
 // cambiar el tema.
 
-export const ComponentExercise7 = () => {
+export const Exercise07 = () => {
   // TODO: implementar — un único ThemeProvider envolviendo los tres
   // componentes (ojo: si usás un Provider por componente, no
   // comparten estado).
